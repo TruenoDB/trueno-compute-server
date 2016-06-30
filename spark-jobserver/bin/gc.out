@@ -1,0 +1,9 @@
+Java HotSpot(TM) 64-Bit Server VM (25.91-b14) for linux-amd64 JRE (1.8.0_91-b14), built on Apr  1 2016 00:57:21 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+Memory: 4k page, physical 2030688k(82680k free), swap 2094076k(1605540k free)
+CommandLine flags: -XX:+CMSClassUnloadingEnabled -XX:+HeapDumpOnOutOfMemoryError -XX:InitialHeapSize=1073741824 -XX:+ManagementServer -XX:MaxDirectMemorySize=536870912 -XX:MaxHeapSize=1073741824 -XX:MaxNewSize=174485504 -XX:MaxTenuringThreshold=6 -XX:NewSize=174485504 -XX:OldPLABSize=16 -XX:OldSize=348971008 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+2.139: [GC (CMS Initial Mark)  125680K(1031552K), 0.0255387 secs]
+2.420: [GC (Allocation Failure)  136320K->20204K(1031552K), 0.0496413 secs]
+7.283: [GC (CMS Final Remark)  41590K(1031552K), 0.0159476 secs]
+2811.181: [GC (Allocation Failure)  156524K->19759K(1031552K), 0.0676143 secs]
+7071.308: [GC (Allocation Failure)  156079K->11825K(1031552K), 1.5856242 secs]
+11451.183: [GC (Allocation Failure)  148145K->11922K(1031552K), 0.0977314 secs]
