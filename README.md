@@ -1,17 +1,17 @@
-# trueno-compute-server
+# Trueno Compute Server
 The Trueno distribute computation server.
 
 
 > **Trueno Compute Server**
 > Trueno Compute Server relies on Spark Job Server, and GraphX.
 
-> [X]. Page Rank Algorithm.
-> [X]. Connected Components.
-> [X]. Strongly Connected Components.
-> [X]. Triangle Counting.
+> 1. Page Rank Algorithm.
+> 2. Connected Components.
+> 3. Strongly Connected Components.
+> 4. Triangle Counting.
 
 ## Spark Compute Server Algorithm Generator
-We design an algorithm generator that will include connectivity to a key value store in which the parameters of new algorithms will be stored. The algorithm generator will create a **algorithms-release.jar** that will be uploaded into the Spark Job Server in order to receive REST requests. The results will be stored in the Database.
+We designed an algorithm generator. The architecture includes connectivity to a key value store in which the parameters of new algorithms will be stored. The algorithm generator will create a **algorithms-release.jar** that will be uploaded into the Spark Job Server in order to receive **REST** requests. The results will be stored in the Database (e.g. Cassandra, Scylla).
 
 ## Algorithms set:
 
@@ -19,7 +19,7 @@ All algorithms run on top of graph **G**
 
 | Algorithm type |           Algortihm Set    |
 | ---------------| -------------------------------------------------------------------------- |
-| Clustering     |      triangles, transitivity, clustering, averga_clustering, [trials]      |
+| Clustering     |      triangles, transitivity, clustering, average_clustering, [trials]      |
 | Centrality     |      Degree, Closeness, Betweenness, Flow-Closeness [k, normalized, u, distance, ...]     |
 | Clique         |      find_cliques, make_clique_bipartite, number_of_cliques, [nodes, cliques]     |
 | Communities    |      k_clique_communities, [k, cliques]      |
