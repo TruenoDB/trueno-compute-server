@@ -1,5 +1,5 @@
 # Trueno Compute Server
-The Trueno distribute computation server.
+The TruenoDB distributed computation server.
 
 
 > **Trueno Compute Server**
@@ -11,7 +11,7 @@ The Trueno distribute computation server.
 > 4. Triangle Counting.
 
 ## Spark Compute Server Algorithm Generator
-We designed an algorithm generator. The architecture includes connectivity to a key value store in which the parameters of new algorithms will be stored. The algorithm generator will create a **algorithms-release.jar** that will be uploaded into the Spark Job Server in order to receive **REST** requests. The results will be stored in the Database (e.g. Apache Cassandra, Scylla).
+We designed an algorithm generator. The architecture includes connectivity to a key value store in which the parameters of new algorithms will be stored. The algorithm generator will create the **algorithms-release.jar** that will be uploaded into the Spark Job Server in order to receive **REST** requests. The results will be stored in the Database (e.g. Apache Cassandra, Scylla).
 
 ## Algorithms set:
 
@@ -25,7 +25,7 @@ All algorithms run on top of graph **G=(V,E)**
 | Communities    |      k_clique_communities, [k, cliques]      |
 | Approximation  |      Clique, Clustering, Domaninating Set, IS, VC       |
 | Components     |      Connectivity, Strong Connectivity, Weak Connectivity      |
-| Connectivity   |      Flow Based Connectivity, Minimum Cuts, [s,t, u, v]      |
+| Connectivity   |      Flow Based Connectivity, Minimum Cuts, [s, t, u, v]      |
 | Cycles         |      simple cycles, [root]      |
 | DAG            |      ancestors, descendants, topological sort, is DAG? [source, ...]      |
 
