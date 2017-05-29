@@ -38,4 +38,7 @@ All algorithms run on top of graph **G=(V,E)**
   <img height="400" src="https://raw.githubusercontent.com/TruenoDB/trueno-compute-server/master/assets/images/architecture.png">
 </p>
 
+<p align="center">
+  <img height="400" src="https://raw.githubusercontent.com/TruenoDB/trueno-compute-server/master/assets/images/ComputeEngineArchitecture.png">
+</p>
 ----------
