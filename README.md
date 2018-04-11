@@ -29,7 +29,6 @@ All algorithms run on top of graph **G=(V,E)**
 | Cycles         |      simple cycles, [root]      |
 | DAG            |      ancestors, descendants, topological sort, is DAG? [source, ...]      |
 
-
 ----------
 
 ## Spark Compute Server Algorithm Generator Architecture
@@ -41,4 +40,4 @@ All algorithms run on top of graph **G=(V,E)**
 <p align="center">
   <img height="400" src="https://raw.githubusercontent.com/TruenoDB/trueno-compute-server/master/assets/images/ComputeEngineArchitecture.png">
 </p>
-----------
+
